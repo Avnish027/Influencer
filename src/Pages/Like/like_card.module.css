@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.vertical_line {
+    position: relative;
+    width: 1px; /* Adjust the width of the line as needed */
+    height:20px; /* Adjust the height of the line as needed */
+    background-color: black; /* Adjust the color of the line as needed */
+    margin: 0 auto; /* Center the line horizontally */
+}
+.data{
+    display: flex;
+    width: auto;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 10px;
+}
+.collab_wrapper{
+    width: 50vw;
+    /* border: 2px solid orange; */
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.collab_img_icon{
+    width: 100%;
+}
+.btn_view{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 25px; */
+    margin: 2%;
+
+}
+.btn_view>button{
+    color: #9B59B6;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hr_line{
+    margin: 10px;
+    background-color:#D9D9D9;
+    border: none;
+    height: 1px;
+}
+@media (max-width:550px) {
+    .collab_wrapper{
+        width: 80vw;
+    }
+    
+}

@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right,#A18CD100,#FBC2EB66);
+
+}

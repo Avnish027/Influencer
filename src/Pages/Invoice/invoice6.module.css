@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.invoice_generated h1{
+    font-family:'Plus Jakarta Sans';
+}
+.outer_wrapper{
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.button_wraper{
+    /* border: 2px solid orange; */
+    display: flex;
+    gap: 10px;
+}
+.amount h3{
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.button div{
+    margin: 6px;
+}
+.button{
+    display: flex;
+    background-color: #9B59B6;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 20vw;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+}
+
+.button p{
+    text-align: center;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 700;
+}
+.invoice_generated{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bbold{
+    font-weight: 400;
+}

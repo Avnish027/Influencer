@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wraper{
+    display: flex;
+}
+.partone{
+    width: 50%;
+    /* border: 2px solid orange; */
+}
+.parttwo{
+    width: 50%;
+    /* border: 2px solid blue; */
+    background-color: #F9E7F7;
+}
+.parttwo>img{
+    width: 100%;
+    object-fit: contain; 
+    height: 100vh;
+}
+.logo{
+    margin-top: 45px;
+    margin-left: 100px;
+}
+.welcome{
+    margin-top: 260px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.formtxt{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 24px;
+}
+.inputtxt{
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border-top: 2px solid #9B59B6; /* Set the border color and width */
+    border-bottom: 2px solid #9B59B6; /* Set the border color and width */
+    border-left: 2px solid #FCFCFC; /* Set the border color and width */
+    border-right: 2px solid #FCFCFC; /* Set the border color and width */
+    outline: none; /* Remove the default focus outline */
+ }
+ .inputtxt>input[type="text"]{
+    width: 200px;
+ }
+
+
+ .horizontal_line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 5vw; /* Set margin for spacing around the line and text */
+  }
+
+  .horizontal_line::before,
+  .horizontal_line::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid #ccc; /* Set the border color, width, and style */
+  }
+
+  .or_text {
+    padding: 0 10px; /* Add padding to the text for better visibility */
+    color: #555; /* Set the text color */
+  }
+
+.connect{
+    text-align: center;
+    font-size: 24px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon > img{
+    margin: 20px;
+}
+@media (max-width:700px) {
+    .wraper{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .partone, .parttwo{
+        width: 100%;
+        
+    }
+    .welcome{
+        margin-top: 100px;
+    }
+    
+}

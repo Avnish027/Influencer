@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.billing_navbar{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right,#9B59B60A,#FFFFFF00);
+    height: 70px;
+}
+.side_menu{
+    display: flex;
+    /* border:2px solid orange; */
+    align-items: center;
+    margin-right: 8%;
+    height: 30px;
+}
+.verticle_line{
+    height: 40px;
+    border-left: 4px solid #9B59B6;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.heading{
+    margin-left: 8%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight:bold;
+}
+.billing_form{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid orange; */
+    justify-content:start;
+    margin-left: 8%;
+}
+.billing_form div{
+    margin-top: 20px;
+}
+.billing_form div>input{
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid #9B59B6;
+}
+.billing_form div>input::placeholder{
+    color: black;
+    padding-left: 2px;
+}
+.horizonatal_line{
+    border: 5px solid #656565;
+    width: 10%;
+    height: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.steps{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+.steps_outer{
+    
+}
+.personal{
+    margin-left: 8%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+.billing_part_two{
+    background-color: #F0F0F0;
+    padding-top: 50px;
+    /* height: calc(100vh - 70px); */
+    height: auto;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 16vw;
+}
+.img_icon{
+    position: relative;
+    margin-left:2vw;  /*.......................*/
+}
+.img_union{
+    position: absolute;
+    /* border: 2px solid black; */
+    top: 14px;
+    left: 18px;
+}
+.img_union1{
+    position: absolute;
+    top: 17px;
+    left: 22px;
+}
+.gst{
+    font-size: 10px;
+    color: #AAAAAA;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
+}
+.step{
+    color: #9B59B6;
+}
+.outer_wrapper{
+    background-color: #F0F0F0;
+    height: calc(100vh - 70px);
+}
+@media (max-width:600px) {
+    .btn{
+        justify-content: center;
+    }
+    
+}

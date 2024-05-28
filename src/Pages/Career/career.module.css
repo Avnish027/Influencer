@@ -1,0 +1,225 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.outer_wrapper{
+    background: linear-gradient(to right, #A18CD100 , #FBC2EB66);
+}
+.section1{
+    background-image: linear-gradient(to bottom right ,#6562FE,#D892E5BD);
+    border: 2px solid orange;
+    height: 100vh;
+    width: 100%;
+    border-radius: 0px 0px 400px 0px;
+}
+.content{
+    width: 90%;
+    border: 2px solid white;
+    margin: auto;
+    display: flex;
+}
+.txt{
+    width: 50%;
+    border: 2px solid blue;
+    color: #FAFAFA;
+    font-family: 'Plus Jakarta Sans', sans-serif;  
+    padding-top: 40px;
+
+}
+.txt_p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.img{
+    width: 50%;
+    border: 2px solid orange;
+}
+.img_src{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.card1{
+    /* height: 300px; */
+    width: 250px;
+    /* border: 2px solid black; */
+    margin: auto;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+.worklife_img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.heading{
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card_heading{
+    margin-top: 15px;;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.card_para{
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    font-weight: 300;
+}
+.card_wrapper{
+    display: flex;
+    width: 80%;
+    border: 2px solid red;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.current_heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.current_para{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-top: 20px;
+    font-weight: 600; 
+
+}
+.current_card{
+    border: 2px solid pink;
+    width: 300px;
+    margin-left: 5%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card_row{
+    display: flex;
+    margin-bottom: 10px;
+}
+.card_img{
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.card_heading{
+    
+}
+
+
+
+.apply_card{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.txt_inline{
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+.heading1 h3{
+    margin-left: 15px;
+    position: relative;
+}
+.apply_one{
+    position: absolute;
+    z-index: 1;
+}
+.apply_two{
+    height: 40px;
+    background-color: #FF8AB0;
+    transform: rotate(-11deg);
+}
+.apply_three{
+    height: 40px;
+    background-color: #A6D7F2;
+    transform: rotate(-11deg);
+}
+.apply_four{
+    height: 40px;
+    background-color: #F0DCF9;
+    transform: rotate(-11deg);
+}
+.horizontal_line{
+    border: 2px dotted black;
+    margin-top: 60px;
+}
+.apply_txt{
+    margin-top: 10px;
+}
+
+.buss_card_wrapper{
+    display: flex;
+    width: 90%;
+    border: 2px solid red;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.buss_heading ,.design_heading{
+    margin-left: 5%;
+}
+.buss_card{
+    border: 2px solid pink;
+    width: 300px; 
+    margin: auto;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.apply_heading{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+.apply_card_wrapper{
+    display: flex;
+    width: 90%;
+    border: 2px solid red;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.design_heading {
+    margin-bottom: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.buss_heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1.2rem;
+}
+.final_outer{
+    background-color: #FAFAFA;
+}
+@media (max-width:550px) {
+    .content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .txt{
+        width: 80%;
+    }
+    
+}
